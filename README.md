@@ -29,7 +29,7 @@ START TRANSACTION;
 SET @userId = (
 	INSERT INTO developer (name, location) 
 	VALUES (name, loc) 
-	return id
+	RETURN id
 );
 
 INSERT INTO profile (user_id, languages, hobbies, links) 
