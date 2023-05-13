@@ -27,20 +27,13 @@ Now you know a bit about me, let me quickly save that response we just got.👨�
 ```sql
 START TRANSACTION;
 SET @userId = (
-	INSERT INTO developer(
-		name, location
-	) 
-	VALUES (
-		name, loc
-	) return id
+	INSERT INTO developer(name, location) 
+	VALUES (name, loc) 
+	return id
 );
 
-INSERT INTO profile(
-	user_id, languages, hobbies, links
-	) 
-VALUES (
-	@userId, languages, hobbies, socials
-	);
+INSERT INTO profile(user_id, languages, hobbies, links) 
+VALUES (@userId, languages, hobbies, socials);
 COMMIT;
 ```
 Much better! Now we have that stored, lets see just we just how far we can go. 🛫
