@@ -22,9 +22,14 @@ Now you know a bit about me, let me quickly save that response we just got.👨�
 
 ```sql
 START TRANSACTION;
-SET @userId = (INSERT INTO developer VALUES (name) return id);
+SET @userId = (
+	INSERT INTO developer VALUES (name) return id
+	);
 
-INSERT INTO profile (user_id, languages, location, hobbies) VALUES (@userId, languages, loc, hobbies);
+INSERT INTO profile
+	(user_id, languages, location, hobbies) 
+VALUES 
+	(@userId, languages, loc, hobbies);
 COMMIT;
 ```
 Much better! Now we have that stored, lets see just we just how far we can go. 🛫
