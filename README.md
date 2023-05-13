@@ -11,7 +11,7 @@ wget "https://about.me/info/basic"
 		"development":["JavaScript", "TypeScript", "Python"]
 	},
 	"loc":"Somerset, UK",
-	"hobbies":["Photography", "ariel Videography"]
+	"hobbies":["Photography", "Aerial Videography"]
 }
 ```
 I'm a self taught programmer, that's passionate about the data driven world we live in, and its relationship between our physical and digital world.
