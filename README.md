@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-```
+```bash wget
 wget "https://about.me/info/basic"
 ```
-```
+```json
 
 {
 	"name":"Myles",
