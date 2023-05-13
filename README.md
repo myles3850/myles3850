@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-```json
+```
 wget "https://about.me/info/basic"
 
 {
@@ -19,7 +19,7 @@ Im a self taught programmer passionate about the data driven world we live in, a
 
 I love all things open source, and aspire to help build data driven technology that can assist those who need it.
 
-Before i tell you more about me, let me quickly save that response we just got.👨🏽‍💻
+Now you know a bit about me, let me quickly save that response we just got.👨🏽‍💻
 
 ```sql
 START TRANSACTION;
