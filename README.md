@@ -11,7 +11,11 @@ wget "https://about.me/info/basic"
 		"development":["JavaScript", "TypeScript", "Python"]
 	},
 	"loc":"Somerset, UK",
-	"hobbies":["Photography", "Aerial Videography"]
+	"hobbies":["Photography", "Aerial Videography"],
+	"socials":{
+		"linkedIn":"https://www.linkedin.com/in/myles-hunt",
+		"gitHub":"https://github.com/myles3850"
+	}
 }
 ```
 I'm a self taught programmer, that's passionate about the data driven world we live in, and its relationship between our physical and digital world.
@@ -23,13 +27,20 @@ Now you know a bit about me, let me quickly save that response we just got.👨�
 ```sql
 START TRANSACTION;
 SET @userId = (
-	INSERT INTO developer VALUES (name) return id
-	);
+	INSERT INTO developer(
+		name, location
+	) 
+	VALUES (
+		name, loc
+	) return id
+);
 
-INSERT INTO profile
-	(user_id, languages, location, hobbies) 
-VALUES 
-	(@userId, languages, loc, hobbies);
+INSERT INTO profile(
+	user_id, languages, hobbies, links
+	) 
+VALUES (
+	@userId, languages, hobbies, socials
+	);
 COMMIT;
 ```
 Much better! Now we have that stored, lets see just we just how far we can go. 🛫
