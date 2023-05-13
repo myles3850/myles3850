@@ -36,7 +36,7 @@ INSERT INTO profile (user_id, languages, hobbies, links)
 VALUES (@userId, languages, hobbies, socials);
 COMMIT;
 ```
-Much better! Now we have that stored, lets see just we just how far we can go. 🛫
+Much better! Now we have that stored, lets see just how far we can go. 🛫
 <!--
 **myles3850/myles3850** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
