@@ -1,10 +1,9 @@
-### Hi there 👋
+### Hi! 👋 Welcome to my playground.
 
-```bash wget
+```bash
 wget "https://about.me/info/basic"
 ```
 ```json
-
 {
 	"name":"Myles",
 	"languages":{
@@ -15,9 +14,7 @@ wget "https://about.me/info/basic"
 	"hobbies":["Photography", "ariel Videography"]
 }
 ```
-Hi! Welcome to my playground.
-
-Im a self taught programmer passionate about the data driven world we live in, and its relationship between our physical and digital world.
+I'm a self taught programmer, that's passionate about the data driven world we live in, and its relationship between our physical and digital world.
 
 I love all things open source, and aspire to help build data driven technology that can assist those who need it.
 
@@ -25,12 +22,12 @@ Now you know a bit about me, let me quickly save that response we just got.👨�
 
 ```sql
 START TRANSACTION;
-SET @userId = (INSERT INTO user VALUES (name) return id);
+SET @userId = (INSERT INTO developer VALUES (name) return id);
 
 INSERT INTO profile (user_id, languages, location, hobbies) VALUES (@userId, languages, loc, hobbies);
 COMMIT;
 ```
-Much better! Now we have that stored, lets se what we just how far we can go. 🛫
+Much better! Now we have that stored, lets see just we just how far we can go. 🛫
 <!--
 **myles3850/myles3850** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
