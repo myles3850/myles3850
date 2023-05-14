@@ -27,7 +27,7 @@ Now you know a bit about me, let me quickly save that response we just got.ðŸ‘¨ð
 ```sql
 START TRANSACTION;
 SET @userId = (
-	SELECT id FROM developer WHERE name = query.name
+	SELECT id FROM developer WHERE name = response.name
 );
 
 INSERT INTO profile (user_id, languages, hobbies, links) 
