@@ -18,7 +18,7 @@ wget "https://about.me/info/basic"
 	}
 }
 ```
-I'm a self taught programmer, that's passionate about the data driven world we live in, and its relationship between our physical and digital world.
+I'm a self taught programmer, that's passionate about the data driven world we live in, and it's relationship between our physical and digital world.
 
 I love all things open source, and aspire to help build data driven technology that can assist those who need it.
 
