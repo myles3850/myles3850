@@ -27,9 +27,7 @@ Now you know a bit about me, let me quickly save that response we just got.ðŸ‘¨ð
 ```sql
 START TRANSACTION;
 SET @userId = (
-	INSERT INTO developer (name, location) 
-	VALUES (name, loc) 
-	RETURN id
+	SELECT id FROM developer WHERE name = query.name
 );
 
 INSERT INTO profile (user_id, languages, hobbies, links) 
